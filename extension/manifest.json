@@ -11,5 +11,19 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-  "permissions": ["storage", "tabs"]
+  "permissions": ["storage", "tabs"],
+  "commands": {
+    "stash": {
+      "description": "Stash tabs",
+      "suggested_key": {
+        "default": "Ctrl+Shift+S"
+      }
+    },
+    "apply_stash": {
+      "description": "Apply stashed tabs",
+      "suggested_key": {
+        "default": "Ctrl+Shift+A"
+      }
+    }
+  }
 }
